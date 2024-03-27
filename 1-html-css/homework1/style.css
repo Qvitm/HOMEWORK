@@ -1,0 +1,21 @@
+a:visited{
+  color:black;
+}
+.a-comment:link{
+ color:rgb(232, 221, 19);
+}
+.a-comment:visited{
+  color:rgb(10, 140, 77);
+  text-decoration: underline;
+}
+.a-comment:hover{
+  color:red;
+}
+.ul-li{
+  color:gray;
+}
+
+.footer p{
+color: rgba(215, 213, 213, 0.741);
+text-align: center;
+}
