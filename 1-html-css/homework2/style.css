@@ -34,8 +34,8 @@ body {
   color: rgb(249, 246, 246);
 }
 
-.menu :hover {
-  color: rgb(245, 239, 239);
+.menu a:hover {
+  color: rgb(228, 10, 10);
   text-decoration: underline;
 }
 
@@ -63,6 +63,7 @@ body {
 }
 
 .promo {
+
   height: 450px;
   width: 100%;
   background-color: rgb(229, 229, 133);
@@ -73,13 +74,17 @@ p {
   font-weight: 400;
 }
 
+
 .promo-div {
+  flex-flow: column-reverse wrap;
+  justify-content: space-between;
+  display: flex;
   text-align: center;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 40px;
   background-color: rgb(149, 216, 216);
   height: 400px;
-  width: 500px;
+  width: 800px;
 }
 
 .promo-div h3 {
@@ -135,11 +140,17 @@ h3 a:visited {
 h3 a:hover {
   color: red;
 }
+.ul-class{
+  text-align: center;
+}
 
 .ul-li {
+  display: flex;
+  flex-basis: 500px;
   font-size: 1.25rem;
   font-weight: 700;
   color: gray;
+  justify-content: space-around;
 }
 
 .ul-li-icon {
