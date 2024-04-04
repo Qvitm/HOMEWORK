@@ -12,11 +12,16 @@ body {
 .video-mp4 {
   width: 100%;
 }
-
-.menu-li {
-  top: 0;
-  left: 0;
+.menu-wrapper {
   position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  display: flex;
+justify-content: center;
+}
+.menu-li {
+  
   z-index: 5;
   font-weight: 700;
   font-style: italic;
