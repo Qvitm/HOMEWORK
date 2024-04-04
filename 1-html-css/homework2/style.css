@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  position: relative;
+  z-index: 0;
+  background: black;
+}
+
+.video-mp4 {
+  width: 100%;
+}
+.menu-wrapper {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  display: flex;
+justify-content: center;
+}
+.menu-li {
+  
+  z-index: 5;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.menu-a {
+  padding-top: 5px;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  background-color: orange;
+  border: 1px solid grey;
+  width: 70px;
+  height: 30px;
+  z-index: 10;
+}
+
+.menu li {
+  text-align: center;
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+.menu a {
+  color: rgb(249, 246, 246);
+}
+
+.menu a:hover {
+  color: rgb(228, 10, 10);
+  text-decoration: underline;
+}
+
+.h1-hw {
+  text-align: center;
+  margin: 0;
+}
+
+.head {
+  height: 400px;
+  position: relative;
+  z-index: 0;
+}
+
+.head-img {
+  height: 100%;
+  width: 100%;
+}
+.head-float-img {
+  float: left;
+  margin: 0 10px 10px 0;
+
+  border-radius: 10px;
+  width: 150px;
+}
+
+.clear-p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.head-text {
+  padding: 15px 40px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 5;
+}
+
+.promo {
+  height: 450px;
+  width: 100%;
+  background-color: rgb(229, 229, 133);
+  padding-top: 20px;
+}
+
+p {
+  font-weight: 400;
+}
+
+.promo-div {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: rgb(149, 216, 216);
+  height: 400px;
+  width: 800px;
+}
+
+.promo-div h3 {
+  font-size: 1.125rem;
+}
+
+.promo-div p {
+  font-size: 0.875rem;
+  line-height: 12px;
+}
+
+.promo-1,
+.promo-2,
+.promo-3 {
+  height: 200px;
+  border: 1px dotted black;
+  margin: 15px;
+  opacity: 0.7;
+}
+
+.promo-1:hover,
+.promo-2:hover,
+.promo-3:hover {
+  opacity: 1;
+}
+
+.promo-1 {
+  background: url(./img/geometric.png) center center;
+  background-size: cover;
+  align-self: flex-start;
+  flex: 1 2;
+}
+
+.promo-2 {
+  background: url(./img/mosaic.jpg) center center;
+  background-size: cover;
+  background-color: rgb(206, 68, 68);
+}
+
+.promo-3 {
+  background: url(./img/pool.jpg) center center;
+  background-size: cover;
+  background-color: rgb(231, 28, 28);
+  align-self: flex-end;
+  flex: 1 2;
+}
+
+h3 a:link {
+  color: rgb(232, 221, 19);
+}
+
+h3 a:visited {
+  color: rgb(10, 140, 77);
+  text-decoration: underline;
+}
+
+h3 a:hover {
+  color: red;
+}
+
+.ul-text {
+  height: 300px;
+  padding: 20px;
+  background: url(./img/space.webp);
+}
+
+.ul-h3-pin {
+  position: relative;
+  margin: 0 auto;
+  height: 100px;
+  width: 500px;
+  padding: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 0;
+  background-color: rgb(160, 163, 172);
+}
+
+.ul-class {
+  color: rgb(231, 78, 78);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.ul-pointer {
+  position: absolute;
+  z-index: 5;
+  top: 66px;
+  right: 26px;
+  width: 35px;
+}
+
+.ul-li {
+  margin-top: 100px;
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: gray;
+  justify-content: space-around;
+}
+
+.ul-li-icon {
+  color: rgb(93, 71, 143);
+  font-size: 1.5rem;
+}
+
+.ul-li-text {
+  color: green;
+}
+
+.footer {
+  background: linear-gradient(
+    rgb(152, 152, 232) 20%,
+    rgb(137, 240, 137) 70%,
+    rgb(59, 102, 221) 100%
+  );
+}
+
+.footer p {
+  color: rgba(215, 213, 213, 0.741);
+  text-align: center;
+}
+
+button {
+  padding: 0;
+}
+
+.button-twitter {
+  text-align: center;
+  padding-top: 10px;
+  display: block;
+  width: 150px;
+  height: 50px;
+}
+
+.icon-twitter {
+  font-size: 1.25rem;
+}
