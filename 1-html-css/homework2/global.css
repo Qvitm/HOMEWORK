@@ -1,4 +1,6 @@
- 
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -17,7 +19,7 @@ body{
   padding: 0;
 }
 h1, h2, h3{
-  font-family: 'Bernier Shade';
+  font-family: 'Bernier Shade' sans-serif;
 }
 
 /* body {
