@@ -1,0 +1,35 @@
+.table {
+  margin: 10px;
+  font-size: 1.5rem;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table caption {
+  caption-side: bottom;
+  margin: 10px;
+}
+
+.table thead {
+  background-color: rgb(112, 112, 223);
+}
+
+.table td,
+.table th {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.table tbody {
+  background-color: rgb(228, 165, 228);
+}
+
+.table tbody:hover td {
+  color: transparent;
+  text-shadow: 0 0 10px rgb(68, 175, 68);
+}
+
+.table tbody:hover tr:hover td {
+  color: black;
+  text-shadow: none;
+}
