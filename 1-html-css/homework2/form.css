@@ -1,0 +1,55 @@
+.form-container {
+  padding: 20px;
+  border: 1px solid black;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-row textarea {
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(215, 212, 212);
+  resize: vertical;
+}
+
+textarea:focus {
+  background-color: rgb(215, 146, 146);
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(226, 224, 224);
+}
+
+input::placeholder {
+  color: brown;
+}
+
+input[type="text"]:hover {
+  border: 2px solid green;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 10px 0;
+  background-color: #69cb7e;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: #f36316;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="#" method="post">
+        <div class="form-row">
+          <label for="form-name">Имя</label>
+          <input
+            type="text"
+            name="form-name"
+            id="form-name"
+            placeholder="Введите свое имя"
+            minlength="2"
+            maxlength="30"
+            pattern="a-zA-Z"
+          />
+        </div>
+        <div class="form-row">
+          <label for="form-textarea">Вопрос</label>
+          <textarea
+            name="form-textarae"
+            id="form-textarae"
+            cols="20"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="form-row">
+          <div>Примерная стоимость проекта,руб</div>
+          <label for="">от 0 до 50000</label>
+          <input type="radio" name="form-project" id="form-to-50000" />
+          <label for="">от 50000 до 200000</label>
+          <input type="radio" name="form-project" id="form-to-50000-200000" />
+          <label for="">более 200000</label>
+          <input type="radio" name="form-project" id="form-from-200000" />
+        </div>
+        <div class="form-row">
+          <fieldset>
+            <div>Используемые технологии</div>
+            <label for=""><input type="checkbox" id="fun-html" />HTML</label>
+            <label for=""><input type="checkbox" id="fun-css" />CSS</label>
+            <label for=""
+              ><input type="checkbox" id="fun-js" />JavaScript</label
+            >
+            <label for=""
+              ><input type="checkbox" id="fun-node.js" />Node.js</label
+            >
+          </fieldset>
+        </div>
+        <div class="form-row">
+          <label for="form-date">Когда начало проекта</label>
+          <input
+            type="date"
+            name="form-date"
+            id="form-date"
+            min="2023-01-01"
+            max="2025-01-01"
+          />
+        </div>
+        <div class="form-row">
+          <button type="submit">Отправить форму</button>
+          <button type="reset">Сбросить форму</button>
+          <!-- <input type="submit" value="ОТправить форму"> -->
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
