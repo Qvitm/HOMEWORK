@@ -12,6 +12,7 @@ body {
 .video-mp4 {
   width: 100%;
 }
+
 .menu-wrapper {
   position: absolute;
   top: 40px;
@@ -20,14 +21,25 @@ body {
   display: flex;
 justify-content: center;
 }
+
 .menu-li {
-  
   z-index: 5;
   font-weight: 700;
   font-style: italic;
   text-decoration: none;
 }
 
+.menu-li a{
+  transition-property: all;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  transition-timing-function: ease-in;
+}
+
+.menu-li:hover a{
+  background-color:rgb(14, 69, 207);
+ color:aqua;
+}
 .menu-a {
   padding-top: 5px;
   text-align: center;
@@ -60,8 +72,12 @@ justify-content: center;
 .h1-hw {
   text-align: center;
   margin: 0;
+  transform: none;
+  transition: 5s linear;
 }
-
+.h1-hw:hover{
+  transform: rotate(360deg) scale(0.5, 0.5);
+}
 .head {
   height: 400px;
   position: relative;
@@ -193,11 +209,40 @@ h3 a:hover {
   z-index: 0;
   background-color: rgb(160, 163, 172);
 }
-
+@keyframes ul-border{
+  0%{background-color:antiquewhite;
+    border-radius: 15%;}
+  50%{background-color:grey;
+  border-radius: 25%; }
+  100%{background-color: blueviolet;
+    border-radius: 15%;}
+}
+.ul-h3-pin-animation{
+  animation: ul-border 4s linear 0.5s infinite ;
+}
+.ul-h3-pin-animation:hover{
+  animation-play-state:paused;
+}
 .ul-class {
   color: rgb(231, 78, 78);
   font-size: 1.5rem;
   text-align: center;
+}
+ 
+@keyframes h3-animation{
+  0%{color:red}
+  50%{color:blue}
+  100%{color:chocolate}
+}
+
+.ul-class-animation{
+  animation-name:  h3-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.ul-class-animation:hover{
+animation-play-state: paused;
+animation-direction: alternate;
 }
 
 .ul-pointer {

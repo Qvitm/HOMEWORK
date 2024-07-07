@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="#" method="post" >
+    <div class="div-row">
+      <label for="client-name">Имя</label>
+      <input type="text" name="client-name"  id="client-name" placeholder="Введите имя">
+    </div>
+    <div class="div-row">
+      <label>Фамилия</label>
+      <input type="text" name="pastname" placeholder="Введите фамилию"> 
+    </div>
+    <div class="div-row">
+      <label for="client-email">E-mail</label>
+      <input type="email" name="client-email"  id="client-email" placeholder="Введите email">
+    </div>
+    <div class="div-row">
+      <label for="client-url">url</label>
+      <input type="url" name="client-url"  id="client-url" placeholder="Введите url">
+    </div>
+    <div class="div-row">
+      <label for="client-password">Промокод</label>
+      <input type="password" name="client-password"  id="client-password" placeholder="Введите промокод">
+    </div>
+    <div class="div-row">
+      <label for="client-comment">Комментарий</label>
+      <textarea name="client-comment" id="client-comment" cols="10" rows="3"></textarea>
+    </div>
+<fieldset>
+  <legend>Перональная информация</legend>
+  <div class="div-row">
+    <label for="client-age">Возраст</label>
+    <input  type="number" name="client-age" id="client-age"  min="5"  max="15"/>
+  </div>
+  <div class="div-row">
+    <div>Возраст</div>
+    <input  type="radio" name="client-age-under-18" id="client-age-under-18"/>
+    <label for="client-age-under-18">Мне до 18 лет</label>
+
+    <input  type="radio" name="client-age-under-18" id="client-age-over-18" />
+    <label for="client-age-over-18">Мне от 18 лет</label>
+  </div>
+  <div class="div-row">
+    <label for="client-date">Дата</label>
+    <input  type="date" name="client-date" id="client-date"  min="2024-01-01"/>
+  </div>
+  <div class="div-row">
+    <label for="client-color">Цвет</label>
+    <input  type="color" name="client-color" id="client-color"  value="#red"></input>
+  </div>
+  <div class="div-row">
+    <label for="client-gender">Пол</label>
+    <select name="client-gender" id="client-gender">
+      <option value="female">Женщина</option>
+      <option value="male">Мужчина</option>
+    </select>
+  </div>
+</fieldset>
+
+
+<fieldset>
+  <legend>bro</legend>
+  <div class="div-row">
+    <label for="client-product">Категории товаров</label>
+    <select name="client-product" id="client-product">
+    <optgroup label="БУКЕТ ИЗ БЕЛЫХ РОЗ"> 
+      <option value="product1">1</option>
+      <option value="product2">2</option>
+      <option value="product3">3</option>
+      <option value="product4">4</option>
+       </optgroup>
+       <optgroup label="БУКЕТ ИЗ синих РОЗ" > 
+        <option value="product8">5</option>
+        <option value="product5">6</option>
+        <option value="product6">7</option>
+        <option value="product7">8</option>
+         </optgroup>
+    </select>
+  </div>
+<div class="div-row">
+  <div><label>выбор</label></div>
+   
+<label for="client-checkbox"><input type="checkbox" id="client-checkbox1">дом</label>
+<label for="client-checkbox"><input type="checkbox" id="client-checkbox2">дом</label>
+<label for="client-checkbox"><input type="checkbox" id="client-checkbox3">дом</label>
+
+</div>
+
+</fieldset>
+
+<div class="div-button">
+  <input type="submit" value="Отправить форму" >
+</div>
+<div class="div-button">
+  <input type="reset" value="Сброс формы">
+  <button type="reset">Сброс формы</button>
+</div>
+
+
+<div class="div-row">
+  <label for="gender">пол</label>
+  <select name="gender" id="gender">
+    <option value="female">мужчина</option>
+    <option value="mail">женщина</option>
+  </select>
+</div>
+
+<div>
+  <label for="green">зеленый</label>
+  <select name="green" id="green">
+    <optgroup label="greeeen" >
+      <option value="product1">1</option>
+      <option value="product1">2</option>
+    </optgroup>
+  </select>
+</div>
+
+<div >
+  <div>number</div>
+  <label for="div-gender">мужчина</label>
+  <input type="radio" name="div-gender" id="div-gender">
+  <label for="div-gender">женщина</label>
+  <input type="radio" name="div-gender" id="div-eq">
+</div>
+
+
+<div>qwerty
+<label for="1"  ><input type="checkbox" name="1" >1</label>
+<label for="2" ><input type="checkbox" name="2">2</label>
+<label for="3" ><input type="checkbox" id="3">3</label>
+
+</div>
+
+  </form>
+</body>
+</html>
+
+
